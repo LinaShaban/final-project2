@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+p,
+h1,
+a,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+::placeholder {
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.navbar-vertical .navbar-nav .nav-link[data-toggle='collapse']:after {
+    display: none;
+}
+
+.navbar-vertical.navbar-expand-xs .navbar-nav {
+    padding-right: 0;
+}
+
+.dropdown-item {
+    text-align: right;
+}
+.nav-link-text {
+    margin-right: 20px;
+}
+
+.navbar-vertical .navbar-nav .nav-link>i {
+    text-align: center;
+    font-size: 22px;
+}
+
+.primary-color {
+    background-color: #223342 !important;
+}
+
+.navbar-vertical.navbar-expand-xs .navbar-nav .nav-link {
+    padding: .675rem 17px .675rem 0;
+    font-size: 18px;
+}
+
+.margins {
+    margin: 20px 30px
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    direction: ltr;
+    justify-content: flex-start;
+}
+
+td,
+th {
+    white-space: unset !important;
+}
+
+.office-name {
+    font-size: 25px;
+}
+
+.header-logo {
+    margin-left: 29%;
+    margin-right: 29%;
+}
+
+.dataTables_wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.modal-header .close {
+    padding: 0;
+    margin: 0;
+}
+
+.btn:not(:last-child) {
+    margin-right: 0 !important;
+}
+
+th.sorting {
+    letter-spacing: 0 !important;
+}
